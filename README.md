@@ -42,11 +42,25 @@ java -jar target/osgi-calculator-app.jar
 - Performs basic mathematical calculations
 - Results are displayed in words
 
-## How to use
+## How to Use
 
-- Type in a mathematical expression in the input field
-- Make sure it's in one of the supported languages
-- Press Enter or click on the "=" button to see the result
+1. Clone the repository
+2. Install Java 17 JDK and Equinox OSGi Framework
+3. Build and run the project using the following commands:
+
+   ```bash
+   cd osgi-calculator-app/
+   mvn clean install
+   java -jar target/osgi-calculator-app.jar
+   ```
+
+4. The user interface will appear on the screen with an input text field and four buttons for the basic arithmetic operations - addition, subtraction, multiplication, and division.
+5. Enter the numbers in words in the selected language, followed by the arithmetic symbol (+, -, *, /), and then type in the second number in words in the same.
+6. Example is : "one hundred twenty one" (English), "bin yirmi bir"(Turkish)
+7. Click the desired arithmetic operation button or press Enter to calculate the result.
+8. The result will appear in the output text field, displayed in words.
+
+That's it! You can use this application to perform basic mathematical calculations in English or Turkish.
 
 
 ## Contributing 
