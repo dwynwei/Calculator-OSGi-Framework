@@ -1,30 +1,34 @@
 package ArithmeticOperations;
 
+import java.math.BigInteger;
+
 public interface ArithmeticOperations {
-	
-	default long sum(long a, long b) {
-		System.out.println(a+b);
-		return a + b;
+
+	default BigInteger sum(BigInteger a, BigInteger b) {
+		System.out.println(a.add(b));
+		return a.add(b);
 	}
-	
-	default long sub(long a, long b) {
-		System.out.println(a-b);
-		return a - b;
+
+	default BigInteger sub(BigInteger a, BigInteger b) {
+		System.out.println(a.subtract(b));
+		return a.subtract(b);
 	}
-	default long mult(long a, long b) {
-		System.out.println(a*b);
-		return a * b;
+
+	default BigInteger mult(BigInteger a, BigInteger b) {
+		System.out.println(a.multiply(b));
+		return a.multiply(b);
 	}
-	default Long div(long a, long b) {
-		
-		if(b == 0) {
+
+	default BigInteger div(BigInteger a, BigInteger b) {
+
+		if (b == BigInteger.ZERO) {
 			System.out.println("2. Değer Sıfırdan Farklı Olmalıdır !");
 			return null;
-		}else {
-			System.out.println(a/b);
-			return a / b;
+		} else {
+			System.out.println(a.divide(b));
+			return a.divide(b);
 		}
-		
+
 	}
-	
+
 }
