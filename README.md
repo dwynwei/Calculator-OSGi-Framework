@@ -79,4 +79,4 @@ This project is licensed under the MIT License. Please see the [LICENSE.md](http
 
 ## Credits
 
-This application was created by [Your Name](https://github.com/dwynwei). Please feel free to contact me if you have any questions or feedback!
+This application was created by [dwynwei](https://github.com/dwynwei). Please feel free to contact me if you have any questions or feedback!
