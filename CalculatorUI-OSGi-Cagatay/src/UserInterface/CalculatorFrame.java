@@ -30,12 +30,12 @@ public class CalculatorFrame extends JFrame implements ActionListener{
 	 */
 	private static final long serialVersionUID = 1L;
 	private JLabel label1, label2, label3;
-    private JTextField textField1, textField2, textField3;
-    private JButton buttonSum, buttonSubtract, buttonMultiply, buttonDivide;
-    private Locale locale = new Locale("tr");
+    	private JTextField textField1, textField2, textField3;
+    	private JButton buttonSum, buttonSubtract, buttonMultiply, buttonDivide;
+    	private Locale locale = new Locale("tr");
     
-    private Calculator calculator;
-    private ArithmeticOperations arithmeticOperations;
+    	private Calculator calculator;
+    	private ArithmeticOperations arithmeticOperations;
 
 	public CalculatorFrame() {
     	
