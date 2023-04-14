@@ -75,7 +75,7 @@ Contributions to this project are more than welcome. Please follow the below ste
 
 ## License
 
-This project is licensed under the MIT License. Please see the [LICENSE.md](https://github.com/Calculator-OSGi-Framework/osgi-calculator-app/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. Please see the [LICENSE.md](https://github.com/dwynwei/Calculator-OSGi-Framework/blob/main/LICENCE.md) file for details.
 
 ## Credits
 
