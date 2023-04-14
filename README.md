@@ -56,7 +56,7 @@ java -jar target/osgi-calculator-app.jar
 
 4. The user interface will appear on the screen with an input text field and four buttons for the basic arithmetic operations - addition, subtraction, multiplication, and division.
 5. Enter the numbers in words in the selected language, followed by the arithmetic symbol (+, -, *, /), and then type in the second number in words in the same.
-6. Example is : "one hundred twenty one" (English), "bin yirmi bir"(Turkish)
+6. Example is : "one hundred twenty one" (English), "yüz yirmi bir"(Turkish)
 7. Click the desired arithmetic operation button or press Enter to calculate the result.
 8. The result will appear in the output text field, displayed in words.
 
